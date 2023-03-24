@@ -25,4 +25,28 @@ public class QuillWeb {
 
         return "basic-data-json";
     }
+
+    @GetMapping("/basic-readonly")
+    public String basicReadonly() {
+
+        return "basic-readonly";
+    }
+
+    @GetMapping("/basic-reset")
+    public String basicRest() {
+
+        return "basic-reset";
+    }
+
+    @GetMapping("/custom")
+    public String custom() {
+
+        return "custom";
+    }
+
+    @GetMapping("/change")
+    public String change() {
+
+        return "change-mode";
+    }
 }
